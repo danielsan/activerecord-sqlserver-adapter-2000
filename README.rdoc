@@ -1,7 +1,7 @@
 
 == Fork of SQL Server 2005/2008 & Azure Adapter For ActiveRecord
 
-The SQL Server adapter for ActiveRecord.  This fork simply adds SQL Server 2000 to the list of supported versions.
+The SQL Server adapter for ActiveRecord.  This fork simply adds SQL Server 2000 to the list of supported versions.  For SQL Server 2000 support, use the sqlserver2000 branch.
 
 
 == What's New

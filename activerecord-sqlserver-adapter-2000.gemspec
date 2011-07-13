@@ -6,9 +6,9 @@ Gem::Specification.new do |s|
   s.summary       = "Fork of SQL Server 2005 and 2008 Adapter For ActiveRecord.  Adds support for SQL Server 2000 by simply adding it to the list of supported versions."
   s.description   = "Fork of SQL Server 2005 and 2008 Adapter For ActiveRecord.  Adds support for SQL Server 2000 by simply adding it to the list of supported versions."
   
-  s.authors       = ['Brian Eng']
-  s.email         = "beng336@gmail.com"
-  s.homepage      = "https://github.com/beng336/activerecord-sqlserver-adapter-2000"
+  s.authors       = ['Brian Eng','Daniel Santana']
+  s.email         = "beng336@gmail.com", 'github@danielsantana.net'
+  s.homepage      = "https://github.com/danielsan/activerecord-sqlserver-adapter-2000"
   
   s.files         = Dir['CHANGELOG', 'MIT-LICENSE', 'README.rdoc', 'lib/**/*' ]
   s.require_path  = 'lib'

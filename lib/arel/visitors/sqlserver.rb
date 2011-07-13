@@ -318,7 +318,8 @@ module Arel
           x.strip!
           x.sub!(/^(COUNT|SUM|MAX|MIN|AVG)\s*(\((.*)\))?/,'\3')
           x.sub!(/^DISTINCT\s*/,'')
-          x.sub!(/TOP\s*\(\d+\)\s*/i,'')
+          #x.sub!(/TOP\s*\(\d+\)\s*/i,'')
+          x.sub!(/TOP\s+\d+\s*/i,'')
           x.strip
         end.join(', '))
       end
